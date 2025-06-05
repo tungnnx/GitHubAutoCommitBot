@@ -67,6 +67,61 @@ on:
     - cron: '49 15 * 12 *'
     - cron: '26 23 * 12 *'
 
+    # Tháng 1 bổ sung
+    - cron: '14 3 * 1 *'
+    - cron: '47 9 * 1 *'
+    - cron: '3 20 * 1 *'
+
+    # Tháng 2 bổ sung
+    - cron: '25 5 * 2 *'
+    - cron: '53 14 * 2 *'
+    - cron: '11 21 * 2 *'
+
+    # Tháng 3 bổ sung
+    - cron: '17 7 * 3 *'
+    - cron: '38 12 * 3 *'
+    - cron: '44 22 * 3 *'
+
+    # Tháng 4 bổ sung
+    - cron: '9 8 * 4 *'
+    - cron: '31 13 * 4 *'
+    - cron: '56 18 * 4 *'
+
+    # Tháng 5 bổ sung
+    - cron: '6 6 * 5 *'
+    - cron: '29 11 * 5 *'
+    - cron: '41 19 * 5 *'
+
+    # Tháng 6 bổ sung
+    - cron: '12 7 * 6 *'
+    - cron: '35 10 * 6 *'
+    - cron: '50 15 * 6 *'
+
+    # Tháng 7 bổ sung
+    - cron: '2 9 * 7 *'
+    - cron: '27 14 * 7 *'
+    - cron: '53 20 * 7 *'
+
+    # Tháng 8 bổ sung
+    - cron: '7 6 * 8 *'
+    - cron: '34 13 * 8 *'
+    - cron: '45 21 * 8 *'
+
+    # Tháng 9 bổ sung
+    - cron: '16 8 * 9 *'
+    - cron: '39 12 * 9 *'
+    - cron: '55 18 * 9 *'
+
+    # Tháng 10 bổ sung
+    - cron: '10 7 * 10 *'
+    - cron: '33 11 * 10 *'
+    - cron: '49 20 * 10 *'
+
+    # Tháng 11 bổ sung
+    - cron: '4 6 * 11 *'
+    - cron: '28 15 * 11 *'
+    - cron: '52 19 * 11 *'
+
 jobs:
   auto_commit:
     name: 'Auto push a commit to my repo'
